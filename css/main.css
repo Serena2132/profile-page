@@ -1,8 +1,43 @@
-.hero-banner {
-  width:: 100%;
+html {
+  box-sizing: border-box;
+  font-family: Karma, serif;
+  line-height: 1.5;
+  background-color: black;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+main {
+  margin: 1rem;
+}
+
+.my-work ol{
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1rem;
+  margin: 0;
+  padding: 0;
+}
+
+ol > li > img {
+  max-width: 100em;
+  align-self: center;
+  margin-top: 1rem;
+}
+
+
+.hero-banner{
+  width: 100%;
   height: 80vh;
   background-color: #000;
-  background-image: url();
+  background-image: url(../images/banner.jpg);
   background-repeat: no-repeat;
   background-position: center
   center;
