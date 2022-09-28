@@ -18,7 +18,7 @@ main {
 }
 
 img {
-  max-width: 100%;
+  width: 100%;
 }
 
 footer {
@@ -77,6 +77,7 @@ h2 {
 .img-and-text {
   display: flex;
   justify-content: center;
+  gap: 2rem;
   max-width: 2000px;
   margin: 0 auto;
 }
@@ -85,12 +86,15 @@ h2 {
   width: 75%;
 }
 
+.cat {
+  width: 25%;
+}
+
 .about-me img {
   border-radius: 50%;
 }
 
 .about-me p {
-  padding-right: 2%;
   font-size: 1.8rem;
   }
 
