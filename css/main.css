@@ -17,6 +17,10 @@ main {
   margin: 1rem;
 }
 
+img {
+  max-width: 100%;
+}
+
 footer {
   margin: 4rem;
   font-size: 1.5em;
@@ -73,17 +77,19 @@ h2 {
 .img-and-text {
   display: flex;
   justify-content: center;
-  padding-right: 25%;
+  max-width: 2000px;
+  margin: 0 auto;
+}
+
+.img-and-text p{
+  width: 75%;
 }
 
 .about-me img {
-  width: 20%;
-  height: 20%;
-  border-radius: 100%;
+  border-radius: 50%;
 }
 
 .about-me p {
-  padding-left: 30%;
   padding-right: 2%;
   font-size: 1.8rem;
   }
