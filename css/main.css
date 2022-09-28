@@ -17,15 +17,14 @@ main {
   margin: 1rem;
 }
 
-footer{
+footer {
   margin: 4rem;
   font-size: 1.5em;
   line-height: 5px;
   padding-bottom: 1em;
-
 }
 
-.hero-banner{
+.hero-banner {
   width: 100%;
   height: 80vh;
   background-color: #000;
@@ -37,32 +36,30 @@ footer{
 }
 
 nav ul {
- list-style-type: none;
- margin: 0;
- padding: 1.25em; 0;
- display: flex;
- justify-content: center;
- background: pink;
- font-size: 2.5rem;
+  list-style-type: none;
+  margin: 0;
+  padding: 1.25em; 0;
+  display: flex;
+  justify-content: center;
+  background: pink;
+  font-size: 2.5rem;
 }
 
-nav ul li{
+nav ul li {
   padding: .5em;
 }
 
-nav ul li a{
-   text-decoration: none;
-   padding: 1em;
-   border-radius: 2em;
-   color: black;
-
+nav ul li a {
+  text-decoration: none;
+  padding: 1em;
+  border-radius: 2em;
+  color: black;
 }
 
-nav ul li a:hover{
+nav ul li a:hover {
   background-color: black;
   color: white;
   font-weight: 500;
-
 }
 
 h2 {
@@ -73,25 +70,25 @@ h2 {
   font-weight: 400;
 }
 
-  .img-and-text{
+.img-and-text {
   display: flex;
   justify-content: center;
   padding-right: 50em;
 }
 
- .about-me img {
+.about-me img {
   width: 20%;
   height: 20%;
   border-radius: 100%;
 }
 
- .about-me p {
-   padding-left: 25em;
-   padding-right: 2em;
-   font-size: 1.8rem;
+.about-me p {
+  padding-left: 25em;
+  padding-right: 2em;
+  font-size: 1.8rem;
   }
 
-.my-work ul{
+.my-work ul {
   max-width: 2000px;
   margin: 0 auto;
   list-style: none;
@@ -101,7 +98,6 @@ h2 {
   padding: 0;
 }
 
-
 ul > li > img {
   max-width: 100em;
   align-self: center;
@@ -110,7 +106,6 @@ ul > li > img {
   height: 30vw;
   object-fit: cover;
   border-radius: 2em;
-
 }
 
 ul > li > img:hover {
